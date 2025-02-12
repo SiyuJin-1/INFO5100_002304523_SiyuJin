@@ -22,6 +22,8 @@ public abstract class Shape {
 }
 
 // For remebering:
-// Abstract classes cannot be instantiated(must be extended by concrete classes)
-// Subclasses must provide @Override implementations for all abstract methods
-// Abstract classes can have normal methods(subclasses can inherit directly)
+/*
+    Abstract classes cannot be instantiated(must be extended by concrete classes)
+    Subclasses must provide @Override implementations for all abstract methods
+    Abstract classes can have normal methods(subclasses can inherit directly)
+*/ 
