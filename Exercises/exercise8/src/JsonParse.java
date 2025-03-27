@@ -9,8 +9,6 @@ public class JsonParse {
     public static void parseAndUpdateJSON(String filePath) throws Exception {
         // read JSON file content
         String content = new String(Files.readAllBytes(Paths.get(filePath)));
-
-        // 转换为 JSONObject
         JSONObject json = new JSONObject(content);
 
         // obtain all books
