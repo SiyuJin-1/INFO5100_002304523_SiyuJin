@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BookShelf>
+    <Book>
+        <title>Harry Potter and the Philosopher's Stone</title>
+        <publishedYear>1997</publishedYear>
+        <numberOfPages>309</numberOfPages>
+        <authors>
+            <author>J. K. Rowling</author>
+        </authors>
+    </Book>
+    <Book>
+        <title>Murder on the Orient Express</title>
+        <publishedYear>1934</publishedYear>
+        <numberOfPages>256</numberOfPages>
+        <authors>
+            <author>Dame Agatha Mary Clarissa Christie</author>
+        </authors>
+    </Book>
+    <Book>
+        <title>The Hound of the Baskervilles</title>
+        <publishedYear>1901</publishedYear>
+        <numberOfPages>185</numberOfPages>
+        <authors>
+            <author>Sir Arthur Ignatius Conan Doyle</author>
+        </authors>
+    </Book>
+</BookShelf>
