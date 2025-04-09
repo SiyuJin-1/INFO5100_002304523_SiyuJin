@@ -1,4 +1,5 @@
 ## 📸 Program Output Screenshots
 
-!(images/output.jpg)
+![Output Example](image/output.jpg)
+
 
