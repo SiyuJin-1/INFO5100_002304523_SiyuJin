@@ -6,7 +6,7 @@ public class Main {
         System.out.println("\n************************ Question (a) ************************\n");
     
         // Check if the generic method works
-        System.out.println("\n---------- Count odd numbers ----------\n");
+        System.out.println("---------- Count odd numbers ----------\n");
         List<Integer> numbers1 = Arrays.asList(1, 2, 3, 4, 5, 6);
         // Count odd numbers
         int countOdd = GenericMethod.countNumber(numbers1, n -> n % 2 != 0); 
@@ -49,6 +49,7 @@ public class Main {
         System.out.println("\n************************ Question (c) ************************\n");
         Integer[] numbers4 = {1, 2, 3, 5, 7, 9};
         int maxNum = GenericMethod.maxElement(numbers4, 0, numbers4.length);
+        System.out.println("The original array is: " + Arrays.toString(numbers4));
         System.out.println("Max in nums[] is: " + maxNum);
     }
 }
