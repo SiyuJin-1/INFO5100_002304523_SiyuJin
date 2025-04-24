@@ -42,8 +42,7 @@ A JavaFX-based desktop application for managing images. Users can upload images,
 ---
 
 ## 🗂️ Project Structure(Class Diagram)
-
-
+![Class Diagram](Screenshots/ClassDiagram.jpeg)
 
 ## 🚀 How to Run
 
@@ -92,40 +91,38 @@ In the **VM options** field, paste the following (update the path as needed):
 
 Here are some screenshots showcasing the main features of the Image Management Tool:
 
-### 🖼️ Thumbnail Display
-Displays uploaded image thumbnails in a scrollable panel.
+### Main Interface  
+Displays the main UI layout with upload, thumbnail, conversion, and download sections.  
 
-![Thumbnail View](screenshots/thumbnail-view.png)
+![Main UI](Screenshots/mainUI.jpg)
 
----
+### Thumbnail and Properties Display
+Displays uploaded image thumbnails in a scrollable panel and when you clicking a thumbnail, it will shows detailed image information such as size, format, and color type
 
-### 📝 Image Properties Panel
-Clicking a thumbnail shows detailed image information such as size, format, and resolution.
+![Thumbnails](Screenshots/thumbnails.jpg)
 
-![Properties View](screenshots/properties-view.png)
+When you click the thumbnail twice, it will show the full image.
 
----
+![FullImage](Screenshots/fullimage.jpg)
 
-### 🎛️ Conversion Controls
-Select one or more formats and apply image conversions, including grayscale and invert filters.
+### Format Conversion  
+You can select desired formats and click "Convert" to transform the image type.  
+![Format Conversion Options](Screenshots/formatConvert.jpg)  
+![Format Conversion Result](Screenshots/formatConvertResult.jpg)
 
-![Conversion Area](screenshots/convert-view.png)
+### Black & White Filter  
+You can convert image into grayscale using a black-and-white filter. But there may be something wrong about .bmp file review.
+![B/W Filter Interface](Screenshots/BWConvert.jpg)  
+![B/W Filter Result](Screenshots/BWConvertResult.jpg)
 
----
+### Invert Filter  
+You can convert image into a color-negative image using a invert filter. But there may be something wrong about .bmp file review.
+![Invert Filter Interface](Screenshots/invertConvert.jpg)  
+![Invert Filter Result](Screenshots/invertConvertResult.jpg)
 
-### 📥 Download Results
-After conversion, downloadable links are shown for each output format.
-
-![Download View](screenshots/download-view.png)
-
----
-
-### 🎨 Filters Applied
-Examples of grayscale (B/W) and invert filters applied to images.
-
-| Original | Grayscale | Invert |
-|----------|-----------|--------|
-| ![original](screenshots/sample-original.png) | ![bw](screenshots/sample-bw.png) | ![invert](screenshots/sample-invert.png) |
+### Download Converted Files  
+Converted results will be listed with download buttons.  
+![Download View](Screenshots/download.jpg)
 
 
 
