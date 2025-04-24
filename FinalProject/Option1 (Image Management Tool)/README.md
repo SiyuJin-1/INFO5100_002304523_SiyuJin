@@ -47,12 +47,45 @@ A JavaFX-based desktop application for managing images. Users can upload images,
 
 ## 🚀 How to Run
 
-### Prerequisites
+You can run this project easily using IntelliJ IDEA or any Java IDE that supports JavaFX:
 
-- JavaFX SDK 24.0.1  
-  [Download JavaFX SDK](https://openjfx.io/)
+### ✅ Prerequisites
 
-### Steps
+- **Java JDK 17** or later installed  
+- **JavaFX SDK 17** or later downloaded and extracted  
+- **IntelliJ IDEA** (recommended) or another IDE
+
+---
+
+### 💡 Run the App
+
+#### 1. Download the Project
+
+Download the ZIP and extract it.
+
+#### 2. Open the Project in IntelliJ or other IDE
+- IntelliJ IDEA For Example
+
+  - **Option A**: Launch **IntelliJ IDEA**, click `Open`, and select the folder containing the project.
+  - **Option B**: Simply **drag and drop** the entire project folder into the IntelliJ IDEA window.
+
+#### 3. Configure JavaFX
+
+Go to `File` → `Project Structure` → `Libraries`
+
+- Click the ➕ icon → Choose **Java**
+- Select the `lib` folder inside your downloaded JavaFX SDK (e.g., `javafx-sdk-24.0.1/lib`)
+- Apply and close.
+
+#### 4. Set VM Options for JavaFX
+
+Go to `Run` → `Edit Configurations`
+
+In the **VM options** field, paste the following (update the path as needed):
+
+--module-path "Your actual path/javafx-sdk-24.0.1/lib" --add-modules javafx.controls,javafx.fxml,javafx.swing
+
+#### 5. Run the App
 
 
 
