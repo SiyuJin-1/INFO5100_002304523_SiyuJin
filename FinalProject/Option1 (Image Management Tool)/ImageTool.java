@@ -55,7 +55,7 @@ public class ImageTool extends Application {
         root = new VBox(20);
         root.setPadding(new Insets(20));
 
-        Image bgImage = new Image("file:background.png"); // 注意路径是 file:
+        Image bgImage = new Image("file:background.png");
         BackgroundImage backgroundImage = new BackgroundImage(
                 bgImage,
                 BackgroundRepeat.REPEAT,
