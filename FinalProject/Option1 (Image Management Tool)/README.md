@@ -91,7 +91,7 @@ In the **VM options** field, paste the following (update the path as needed):
 
 Here are some screenshots showcasing the main features of the Image Management Tool:
 
-### Main Interface  
+### Main UI  
 Displays the main UI layout with upload, thumbnail, conversion, and download sections.  
 
 ![Main UI](Screenshots/mainUI.jpg)
@@ -103,7 +103,7 @@ Displays uploaded image thumbnails in a scrollable panel and when you clicking a
 
 When you click the thumbnail twice, it will show the full image.
 
-![FullImage](Screenshots/fullimage.jpg)
+![FullImage](Screenshots/fullImage.jpg)
 
 ### Format Conversion  
 You can select desired formats and click "Convert" to transform the image type.  
@@ -112,8 +112,8 @@ You can select desired formats and click "Convert" to transform the image type.
 
 ### Black & White Filter  
 You can convert image into grayscale using a black-and-white filter. But there may be something wrong about .bmp file review.
-![B/W Filter Interface](Screenshots/BWConvert.jpg)  
-![B/W Filter Result](Screenshots/BWConvertResult.jpg)
+![B/W Filter Interface](Screenshots/B:WConvert.jpg)  
+![B/W Filter Result](Screenshots/B:WConvertResult.jpg)
 
 ### Invert Filter  
 You can convert image into a color-negative image using a invert filter. But there may be something wrong about .bmp file review.
