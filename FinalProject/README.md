@@ -1,59 +1,19 @@
-# INFO5100 Final Project Image Management Tool
+# Final Project - Image Management Tool & Number Recognizer
 
-A JavaFX-based desktop application for managing images. Users can upload images, preview thumbnails, convert between image formats (PNG, JPG, BMP, GIF), and apply image filters such as **black-and-white** and **inverted colors**.
+This final project includes **both Option #1 (Image Management Tool)** and **Option #2 (Number Recognizer)**.
 
----
+## What’s Included
 
-## 📦 Features
+### Option #1: Image Management Tool (Main Focus)
 
-- 📤 Upload local images
-- 🖼️ Generate and preview image thumbnails
-- 📑 View image metadata (filename, resolution, size, format, modified date)
-- 🔄 Convert images to different formats: PNG, JPG, BMP, GIF
-- 🎨 Apply filters:
-  - Black & White
-  - Invert colors
-- 💾 Save converted images to computer
+This project allows users to upload image files, display thumbnails, view image properties (such as size, format, etc.), convert images to different formats (JPG, PNG, BMP, GIF), and apply visual filters like **grayscale (black and white)** and **invert colors**.  
+It also supports downloading the converted results and uses **Object-Oriented Programming** principles and the **Factory Design Pattern** for filter selection.
 
 ---
 
-## 🎯 Technologies Used
+### 🧪 Option #2: Number Recognizer (Extra Work)
 
-- **JavaFX** for GUI (Java SDK 24.0.1)
-- **Java AWT & Swing** for image processing
-- **use of inheritance, encapsulation and interfaces**
-  - **Inheritance**
-    - Both the BlackWhiteFilter and InvertFilter classes inherit from the Filter interface and implement the apply(BufferedImage) method
-    - ImageTool inherits from the Application class of JavaFX and is used for GUI startup
-  - **Encapsulation**
-    - Each class is responsible for a specific duty, such as:
-      - Convert: Handle image format conversion and filter conversion;
-      - ImageFiles: Provide image file information (such as BufferedImage original image, width and height, format, etc.);
-      - Download and Upload: Download and Upload files;
-      - InvertFilter: Invert images;
-      - BlackWhiteFilter: Convert images to Black-White format.
-  - **Interfaces**
-    - Filter is a custom interface that defines a image processing method
-    - BlackWhiteFilter and InvertFilter implement this interface, allowing for flexible use in FilterFactory
-- **Design Patterns**:
-  - `Filter` Interface (Strategy Pattern)
-  - `FilterFactory` (Factory Method Pattern)
+Initially, I planned to implement Option #2 using JavaFX with TensorFlow Java API. However, I found that **TensorFlow is significantly easier to handle in Python**, especially for training and prediction tasks.  
+So I used **Python** to build and train the model (using MNIST), and only used Java to design the GUI and call the trained model via an external prediction service.
 
----
-
-## 🗂️ Project Structure(Class Diagram)
-
-
-
-## 🚀 How to Run
-
-### Prerequisites
-
-- JavaFX SDK 24.0.1  
-  [Download JavaFX SDK](https://openjfx.io/)
-
-### Steps
-
-
-
-
+> ⚠️ Since most part of the solution uses Python, it may **not fully meet the Java-only expectation**, so I also implement Option #1.
