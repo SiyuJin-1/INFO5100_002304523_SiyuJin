@@ -1,19 +1,21 @@
 # INFO5100 Final Project Image Management Tool
 
-A JavaFX-based desktop application for managing images. Users can upload images, preview thumbnails, convert between image formats (PNG, JPG, BMP, GIF), and apply image filters such as **black-and-white** and **inverted colors**.
+A JavaFX-based desktop application for managing images. 
+Users can upload images, preview thumbnails, convert between image formats (PNG, JPG, BMP, GIF), and apply image filters such as **black-and-white** and **inverted colors**.
 
 ---
 
 ## 📦 Features
 
-- 📤 Upload local images
-- 🖼️ Generate and preview image thumbnails
-- 📑 View image metadata (filename, resolution, size, format, modified date)
-- 🔄 Convert images to different formats: PNG, JPG, BMP, GIF
-- 🎨 Apply filters:
+- Upload local images
+- Generate and preview image thumbnails
+- Show full image
+- View image metadata (filename, resolution, size, format, modified date)
+- Convert images to different formats: PNG, JPG, BMP, GIF
+- Apply filters:
   - Black & White
   - Invert colors
-- 💾 Save converted images to computer
+- Save converted images to computer
 
 ---
 
@@ -95,6 +97,10 @@ Here are some screenshots showcasing the main features of the Image Management T
 Displays the main UI layout with upload, thumbnail, conversion, and download sections.  
 
 ![Main UI](Screenshots/mainUI.jpg)
+
+### Upload Image
+You can click the upload button to choose images.
+![Upload](Screenshots/upload.jpg)
 
 ### Thumbnail and Properties Display
 Displays uploaded image thumbnails in a scrollable panel and when you clicking a thumbnail, it will shows detailed image information such as size, format, and color type
