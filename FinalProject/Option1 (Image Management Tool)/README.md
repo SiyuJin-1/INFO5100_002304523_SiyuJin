@@ -68,6 +68,7 @@ Download the ZIP and extract it.
 
   - **Option A**: Launch **IntelliJ IDEA**, click `Open`, and select the folder containing the project.
   - **Option B**: Simply **drag and drop** the entire project folder into the IntelliJ IDEA window.
+  - - **Other IDEs**: Use the IDE’s method to run a Java project and import JavaFX.
 
 #### 3. Configure JavaFX
 
@@ -86,6 +87,47 @@ In the **VM options** field, paste the following (update the path as needed):
 --module-path "Your actual path/javafx-sdk-24.0.1/lib" --add-modules javafx.controls,javafx.fxml,javafx.swing
 
 #### 5. Run the App
+
+## 🖼️ Screenshots
+
+Here are some screenshots showcasing the main features of the Image Management Tool:
+
+### 🖼️ Thumbnail Display
+Displays uploaded image thumbnails in a scrollable panel.
+
+![Thumbnail View](screenshots/thumbnail-view.png)
+
+---
+
+### 📝 Image Properties Panel
+Clicking a thumbnail shows detailed image information such as size, format, and resolution.
+
+![Properties View](screenshots/properties-view.png)
+
+---
+
+### 🎛️ Conversion Controls
+Select one or more formats and apply image conversions, including grayscale and invert filters.
+
+![Conversion Area](screenshots/convert-view.png)
+
+---
+
+### 📥 Download Results
+After conversion, downloadable links are shown for each output format.
+
+![Download View](screenshots/download-view.png)
+
+---
+
+### 🎨 Filters Applied
+Examples of grayscale (B/W) and invert filters applied to images.
+
+| Original | Grayscale | Invert |
+|----------|-----------|--------|
+| ![original](screenshots/sample-original.png) | ![bw](screenshots/sample-bw.png) | ![invert](screenshots/sample-invert.png) |
+
+
 
 
 
