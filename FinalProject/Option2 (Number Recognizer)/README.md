@@ -81,6 +81,20 @@ Here are some screenshots showcasing the main features of the Number Recognizer:
 You can draw digits on the canvas and recognize the handwritten digit.
 ![Upload](Screenshots/recognize.jpg)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+## ❗ Troubleshooting
+
+### ⚠️ Error: Model file not found or predict file not found
+
+#### Cause
+The Python could not locate the trained model file (`digit_model.keras`).
+The Java could not locate the predict.py file.
+
+#### Solution
+- Make sure `digit_model.keras` exists in the same folder as `predict.py`, or provide the correct path to the file.
+- Or ensure the IDE working directory is correctly set
+
 
 
 
