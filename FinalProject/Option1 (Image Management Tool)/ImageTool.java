@@ -45,7 +45,7 @@ public class ImageTool extends Application {
 
         initializeUI();
 
-        // Set the size to 1000x800
+        // Set the size to 700x800
         mainStage.setScene(new Scene(root, 700, 800));
         mainStage.show();
     }
@@ -71,12 +71,9 @@ public class ImageTool extends Application {
         thumbnailLabel.setStyle("-fx-font-size: 14px; -fx-text-fill: #2C3E50;");
         thumbnailsContainer = new HBox(10);
         thumbnailsContainer.setPadding(new Insets(20));
-
-        // Wrap the thumbnail area with ScrollPane to support left and right scrolling
         ScrollPane thumbnailsScroll = new ScrollPane(thumbnailsContainer);
         thumbnailsScroll.setPrefHeight(200);
         thumbnailsScroll.setFitToWidth(true);
-
         VBox thumbnailBox = new VBox(5, thumbnailLabel, thumbnailsScroll);
         thumbnailBox.setAlignment(Pos.CENTER);
         thumbnailBox.setStyle("-fx-background-color: rgba(255, 255, 255, 0.7); -fx-background-radius: 10;");
@@ -99,7 +96,7 @@ public class ImageTool extends Application {
         thumbnailImage = new Thumbnail(thumbnailsContainer, propertiesContainer);
         thumbnailImage.setConvert(convert);
 
-        // Create a control area to place the control button
+        // Create a control area
         Label controllLabel = new Label("Convert Area");
         controllLabel.setStyle("-fx-font-size: 14px; -fx-text-fill: #2C3E50;");
         controlsContainer = convert.getControlsContainer();
@@ -118,7 +115,7 @@ public class ImageTool extends Application {
         uploadContainer = new HBox(upload.getUploadButton());
         uploadContainer.setPadding(new Insets(10));
 
-        // Create the download display area
+        // Create the download area
         Label downloadlLabel = new Label("Download Area");
         downloadlLabel.setStyle("-fx-font-size: 14px; -fx-text-fill: #2C3E50;");
         downloadContainer = download.getDownloadContainer();
@@ -130,7 +127,6 @@ public class ImageTool extends Application {
         downloadBox.setAlignment(Pos.CENTER);
         downloadBox.setStyle("-fx-background-color: rgba(255, 255, 255, 0.7); -fx-background-radius: 10;");
         convert.setDownload(download);
-
 
         // Add all the components to the main container
         root.getChildren().addAll(
