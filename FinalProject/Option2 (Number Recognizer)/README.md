@@ -15,9 +15,9 @@ Users can **draw digits on a canvas** and **recognize the handwritten digit**.
 
 ## Technologies Used
 
-- **JavaFX** for GUI (Java SDK 24.0.1)
+- **JavaFX for GUI (Java SDK 24.0.1)**
 - **Python for machine learning model and predict**
-- **TensorFlow**:
+- **TensorFlow**
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
