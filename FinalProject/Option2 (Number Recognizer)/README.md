@@ -5,7 +5,7 @@ Users can **draw digits on a canvas** and **recognize the handwritten digit**.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📦 Features
+## Features
 
 - Draw digits on a canvas
 - Save the drawing
@@ -13,7 +13,7 @@ Users can **draw digits on a canvas** and **recognize the handwritten digit**.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 🎯 Technologies Used
+## Technologies Used
 
 - **JavaFX** for GUI (Java SDK 24.0.1)
 - **Python for machine learning model and predict**
@@ -22,7 +22,7 @@ Users can **draw digits on a canvas** and **recognize the handwritten digit**.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 🚀 How to Run
+## How to Run
 
 You can run this project easily using IntelliJ IDEA or any Java IDE that supports JavaFX:
 
@@ -69,7 +69,7 @@ In the **VM options** field, paste the following (update the path as needed):
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 🖼️ Screenshots
+## Screenshots
 
 Here are some screenshots showcasing the main features of the Number Recognizer:
 
@@ -83,7 +83,7 @@ You can draw digits on the canvas and recognize the handwritten digit.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-## ❗ Troubleshooting
+## Troubleshooting
 
 ### ⚠️ Error: Model file not found or predict file not found
 
