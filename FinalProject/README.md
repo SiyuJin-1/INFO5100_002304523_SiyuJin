@@ -2,8 +2,6 @@
 
 This final project includes **both Option #1 (Image Management Tool)** and **Option #2 (Number Recognizer)**.
 
-## What’s Included
-
 ### Option #1: Image Management Tool
 
 This project allows users to upload image files, display thumbnails, view image properties (such as size, format, etc.), convert images to different formats (JPG, PNG, BMP, GIF), and apply visual filters like **grayscale (black and white)** and **invert colors**.  
