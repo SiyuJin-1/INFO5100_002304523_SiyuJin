@@ -3,7 +3,7 @@
 A JavaFX-based desktop application for managing images. 
 Users can upload images, preview thumbnails, convert between image formats (PNG, JPG, BMP, GIF), and apply image filters such as **black-and-white** and **inverted colors**.
 
----
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📦 Features
 
@@ -17,7 +17,7 @@ Users can upload images, preview thumbnails, convert between image formats (PNG,
   - Invert colors
 - Save converted images to computer
 
----
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎯 Technologies Used
 
@@ -41,7 +41,7 @@ Users can upload images, preview thumbnails, convert between image formats (PNG,
   - `Filter` Interface (Strategy Pattern)
   - `FilterFactory` (Factory Method Pattern)
 
----
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🗂️ Project Structure(Class Diagram)
 ![Class Diagram](Screenshots/ClassDiagram.jpeg)
@@ -50,15 +50,15 @@ Users can upload images, preview thumbnails, convert between image formats (PNG,
 
 You can run this project easily using IntelliJ IDEA or any Java IDE that supports JavaFX:
 
-### ✅ Prerequisites
+### Prerequisites
 
 - **Java JDK 17** or later installed  
-- **JavaFX SDK 17** or later downloaded and extracted  
+- **JavaFX SDK 17** or later installed  You can download JavaFX from there: [Download JavaFX](https://openjfx.io/index.html)
 - **IntelliJ IDEA** (recommended) or another IDE
 
----
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 💡 Run the App
+### Run the App
 
 #### 1. Download the Project
 
@@ -88,6 +88,8 @@ In the **VM options** field, paste the following (update the path as needed):
 --module-path "Your actual path/javafx-sdk-24.0.1/lib" --add-modules javafx.controls,javafx.fxml,javafx.swing
 
 #### 5. Run the App
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🖼️ Screenshots
 
