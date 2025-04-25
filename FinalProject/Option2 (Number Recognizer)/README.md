@@ -29,7 +29,8 @@ You can run this project easily using IntelliJ IDEA or any Java IDE that support
 ### Prerequisites
 
 - **Java JDK 17** or later installed  
-- **JavaFX SDK 17** or later downloaded and extracted
+- **JavaFX SDK 17** or later installed
+  You can download JavaFX from there: [Download JavaFX](https://openjfx.io/index.html)
 - **Python 3** installed
 - **IntelliJ IDEA** or another IDE
 
