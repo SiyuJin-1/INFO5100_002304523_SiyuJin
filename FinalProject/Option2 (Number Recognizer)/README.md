@@ -83,7 +83,7 @@ You can draw digits on the canvas and recognize the handwritten digit.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Troubleshooting
+## Error Occur
 
 ### ⚠️ Error: Model file not found or predict file not found
 
@@ -94,12 +94,3 @@ The Java could not locate the predict.py file.
 #### Solution
 - Make sure `digit_model.keras` exists in the same folder as `predict.py`, or provide the correct path to the file.
 - Or ensure the IDE working directory is correctly set
-
-
-
-
-
-
-
-
-
