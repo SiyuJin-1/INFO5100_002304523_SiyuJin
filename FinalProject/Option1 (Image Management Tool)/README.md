@@ -8,9 +8,9 @@ Users can upload images, preview thumbnails, convert between image formats (PNG,
 ## Features
 
 - Upload local images
-- Generate and preview image thumbnails
+- Generate and show image thumbnails
 - Show full image
-- View image metadata (filename, resolution, size, format, modified date)
+- Show image properties (filename, size, format, modified date, color type)
 - Convert images to different formats: PNG, JPG, BMP, GIF
 - Apply filters:
   - Black & White
