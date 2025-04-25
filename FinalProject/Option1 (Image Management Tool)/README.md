@@ -5,7 +5,7 @@ Users can upload images, preview thumbnails, convert between image formats (PNG,
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📦 Features
+## Features
 
 - Upload local images
 - Generate and preview image thumbnails
@@ -19,7 +19,7 @@ Users can upload images, preview thumbnails, convert between image formats (PNG,
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 🎯 Technologies Used
+## Technologies Used
 
 - **JavaFX** for GUI (Java SDK 24.0.1)
 - **Java AWT & Swing** for image processing
@@ -43,10 +43,10 @@ Users can upload images, preview thumbnails, convert between image formats (PNG,
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 🗂️ Project Structure(Class Diagram)
+## Project Structure(Class Diagram)
 ![Class Diagram](Screenshots/ClassDiagram.jpeg)
 
-## 🚀 How to Run
+## How to Run
 
 You can run this project easily using IntelliJ IDEA or any Java IDE that supports JavaFX:
 
@@ -92,7 +92,7 @@ In the **VM options** field, paste the following (update the path as needed):
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 🖼️ Screenshots
+## Screenshots
 
 Here are some screenshots showcasing the main features of the Image Management Tool:
 
